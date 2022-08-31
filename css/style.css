@@ -25,7 +25,7 @@ body {
     padding: 15px;
     background-color: var(--white-color);
     border-radius: 1rem;
-    max-width: 320px;
+    max-width: 290px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .card h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--darkblue-color);
     user-select: none;
@@ -52,11 +52,12 @@ body {
 }
 
 .card p {
+    padding: 10px;
     font-weight: 400;
     color: var(--grayishblue-color);
     user-select: none;
 }
 
 .caption {
-    margin: 15px 20px;
+    margin: 10px;
 }
