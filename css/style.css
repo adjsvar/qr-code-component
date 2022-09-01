@@ -6,7 +6,7 @@
     --lightgray-color: hsl(212, 45%, 89%);
     --grayishblue-color: hsl(220, 15%, 55%);
     --darkblue-color: hsl(218, 44%, 22%);
-    --shadow-color:  #3838386e;
+    --shadow-color:  #2e3953a2;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 
 .card img {
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: 1rem;    
 }
 
 .card h1 {
@@ -49,15 +49,16 @@ body {
     color: var(--darkblue-color);
     user-select: none;
     transition: rotate 2s ;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 .card p {
-    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+    padding: 0 20px;
     font-weight: 400;
     color: var(--grayishblue-color);
     user-select: none;
-}
-
-.caption {
-    margin: 10px;
 }
